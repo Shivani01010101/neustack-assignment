@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Neustack E-commerce Demo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>🛒 Neustack E-commerce Demo</h1>
+
+    <section>
+      <h2>Add Item to Cart</h2>
+      <input id="productId" placeholder="Product ID" />
+      <input id="name" placeholder="Name" />
+      <input id="price" placeholder="Price" type="number" />
+      <input id="quantity" placeholder="Quantity" type="number" />
+      <button onclick="addToCart()">Add to Cart</button>
+    </section>
+
+    <section>
+      <h2>Checkout</h2>
+      <input id="discountCode" placeholder="Discount Code (optional)" />
+      <button onclick="checkout()">Checkout</button>
+      <pre id="checkoutResult"></pre>
+    </section>
+
+    <section>
+      <h2>Admin Stats</h2>
+      <button onclick="getStats()">Load Stats</button>
+      <pre id="stats"></pre>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

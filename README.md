@@ -112,3 +112,14 @@ Designed with clean separation of routes and services.
 ✔ All required features implemented
 ✔ Clean and modular code structure
 ✔ ES6 standards followed
+
+## 🌐 Optional Frontend UI
+
+A basic HTML/CSS/JavaScript UI is included in the `frontend/` folder to demonstrate API usage.
+
+To use:
+
+1. Start backend server
+2. Open `frontend/index.html` in a browser
+
+This UI is optional and provided for demonstration purposes only.
